@@ -35,7 +35,7 @@ pip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)
 ## Develop & Test
 
 **NOTE:** this repo contains codes for building the docker image; but the image
-has been built and deployed to [Docker Hub]().
+has been built and deployed to [Docker Hub](https://hub.docker.com/repository/docker/gabepublic/api-countries-pyflask).
 
 There is no need to rebuild the docker image unless, you plan to modify the 
 code, or deploy to your own docker image repo.
