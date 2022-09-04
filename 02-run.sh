@@ -7,4 +7,4 @@ APPNAME="api-countries"
 BUILD_VER=0.1.0
 PLATFORM="linux-amd64"
 
-docker run --rm -d --name $APPNAME -p 80:5000 $NAMESPACE/$IMG_NAME:$BUILD_VER-$PLATFORM
+docker run --rm -d --name $APPNAME -p 8080:5000 $NAMESPACE/$IMG_NAME:$BUILD_VER-$PLATFORM
