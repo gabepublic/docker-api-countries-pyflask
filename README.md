@@ -47,6 +47,7 @@ rebuild the docker image, and test it locally.
 ```
 $ cd [projects-dir]/docker-api-countries-pyflask
 $ virtualenv ./.venv
+$ source .venv/bin/activate
 (.venv) $ cd [projects-dir]/docker-api-countries-pyflask/flaskapp
 (.venv) $ pip install -r requirements.txt
 Successfully installed Flask-2.0.3 Jinja2-3.1.2 MarkupSafe-2.1.1 Werkzeug-2.2.2 certifi-2022.6.15 charset-normalizer-2.0.12 click-8.1.3 idna-3.3 itsdangerous-2.1.2 requests-2.27.1 urllib3-1.26.12
